@@ -6,12 +6,12 @@
 # ans = []
 
 # for i in range(a):
-#     if nums[n] < b:
-#         ans.append(nums[n])
+#     if nums[i] < b:
+#         ans.append(nums[i])
 #     else:
 #         continue
         
-# print(ans)
+# print(*ans)
 
 
 
