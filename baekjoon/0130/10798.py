@@ -4,7 +4,12 @@ ans = ''
 for n in range(n):
     word = input()
     list_str.append(word)
-    
+    for char in list_str:
+        if len(char) == 0:
+            continue
+        else:
+            ans += char.pop(0)
+        print(ans)
 
 # for word in list_str:
 #     for n in word:
